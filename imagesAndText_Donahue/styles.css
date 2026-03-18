@@ -1,0 +1,28 @@
+@charset "UTF-8";
+* {box-sizing: border-box; margin: 0; padding: 0;}
+
+body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+}
+
+.viewer {
+	position: relative;
+	height: 100vh;
+	width: 100vw;
+}
+.viewer img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.viewer .description {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 4rem;
+}
